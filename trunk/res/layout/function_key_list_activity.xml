@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	    android:padding="5dip"
+    >
+		<TextView  
+	    	android:id="@+id/keyboard_setting_description"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="FN 키와 알파벳의 조합으로 이모티콘이나 특수기호, 단어를 바로 입력 할 수 있습니다. \n 도돌 차차 키보드로 설정 되어 있어야 사용 및 추가가 가능합니다."
+		    /> 
+	    <Button
+	    	android:id="@+id/button_mapping"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:text="새 키 맵핑 추가"
+	    />
+	    <ListView
+	    	android:id="@+id/list"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+	    />
+	    
+</LinearLayout>
