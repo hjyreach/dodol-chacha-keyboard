@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:background="#DDD" 
+		    android:text="언어 설정"
+		    android:padding="3dip"
+		    />
+		    <LinearLayout
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+	    		android:orientation="horizontal"
+	    		android:padding="6dip"
+		    >
+				<TextView  
+					android:layout_weight="1"
+			    	android:id="@+id/locale_setting_description"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="한국어로 언어 설정을 합니다."
+				    />
+			    <Button
+					android:layout_weight="1"
+			    	android:id="@+id/locale_setting"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:text="한국어로 설정"
+			    />
+		    </LinearLayout>
+		<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="키보드 설정"
+		    android:background="#DDD"
+		    android:padding="3dip"
+		    
+		    />
+		    <LinearLayout
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+	    		android:orientation="horizontal"
+	    		android:padding="10dip"
+		    >
+				<TextView  
+			    	android:id="@+id/keyboard_setting_description"
+					android:layout_weight="1"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="도돌 차차 키보드 추가하기."
+				    /> 
+			    <Button
+					android:layout_weight="1"
+			    	android:id="@+id/keyboard_setting"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:text="한글 키보드 설정 바로가기"
+			    />
+	 	   </LinearLayout>
+		    <LinearLayout
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+	    		android:orientation="horizontal"
+	    		android:padding="10dip"
+		    >
+				<TextView  
+			    	android:id="@+id/keyboard_setting_description"
+					android:layout_weight="1"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="도돌 차차 키보드를 선택 하기"
+				    /> 
+			    <Button
+					android:layout_weight="1"
+			    	android:id="@+id/keyboard_input_method"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+				    android:text="기본 키보드 설정 바로가기"
+			    />
+	 	   </LinearLayout>
+		    <LinearLayout
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+	    		android:orientation="horizontal"
+	    		android:padding="10dip"
+		    >
+				<TextView  
+			    	android:id="@+id/keyboard_toast_description"
+					android:layout_weight="1"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content" 
+				    android:text="키보드 상태 팝업으로 표시"
+				    /> 
+			    <ToggleButton
+					android:layout_weight="1"
+			    	android:id="@+id/keyboard_toast_button"
+				    android:layout_width="fill_parent" 
+				    android:layout_height="wrap_content"
+					android:textOn="키보드 상태 보임"
+					android:textOff="키보드 상태 보이지 않음"
+			    />
+	 	   </LinearLayout>
+	</LinearLayout>
+</ScrollView>

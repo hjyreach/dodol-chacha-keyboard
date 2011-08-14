@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:paddingBottom="50dip"
+    >
+    <include android:id="@+id/menu1" layout="@layout/application_boxed" />
+    <include android:id="@+id/menu2" layout="@layout/application_boxed" />
+    <include android:id="@+id/menu3" layout="@layout/application_boxed" />
+    
+</LinearLayout>
