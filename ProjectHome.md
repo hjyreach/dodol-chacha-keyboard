@@ -1,0 +1,1 @@
+Hangle keyboard support for HTC chacha android phone
